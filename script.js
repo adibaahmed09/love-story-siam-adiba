@@ -52,7 +52,7 @@ document.getElementById("music").play();
 
 }
 
-else{
+else{document.getElementById("teddy").src="IMG_7853.png";
 
 
 document.getElementById("message").innerHTML =
