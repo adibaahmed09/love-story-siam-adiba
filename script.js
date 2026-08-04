@@ -1,6 +1,5 @@
 let currentQuestion = 0;
 
-
 const questions = [
 
 "Do you love me? 💖",
@@ -26,16 +25,15 @@ const questions = [
 ];
 
 
-
-// PASSWORD
+// PASSWORD PAGE
 
 function checkPassword(){
 
-let pass =
-document.getElementById("password").value;
+let pass = document.getElementById("password").value;
 
 
 if(pass === "01012023"){
+
 
 document.getElementById("teddy").src="IMG_7852.png";
 
@@ -48,28 +46,25 @@ document.getElementById("envelopePage")
 .classList.remove("hidden");
 
 
-document.getElementById("music").play();
-
 }
-else{document.getElementById("teddy").src="IMG_7853.png";
+
+else{
+
+
+document.getElementById("teddy").src="IMG_7853.png";
 
 
 document.getElementById("message").innerHTML =
 "🥺 Teddy is crying... Wrong password 💔";
 
 
-document.getElementById("characterReaction")
-.innerHTML="😢";
-
-
 }
 
 }
 
 
 
-
-// OPEN ENVELOPE
+// ENVELOPE
 
 function openQuestions(){
 
@@ -89,55 +84,52 @@ showQuestion();
 
 
 
+// QUESTIONS
 
 function showQuestion(){
 
-document.getElementById("questionText")
-.innerHTML =
+
+document.getElementById("questionText").innerHTML =
 questions[currentQuestion];
 
-}
 
+}
 
 
 
 function yesAnswer(){
 
+
 document.getElementById("characterReaction").innerHTML =
 '<img src="IMG_7857.png" class="reaction-teddy">';
 
 
-document.getElementById("reaction")
-.innerHTML =
-"Sending you a big hug & love 💕";
-
-
-
+document.getElementById("reaction").innerHTML =
+"Teddy is happy and sending you a big hug 💕";
 
 
 nextQuestion();
 
-}
 
+}
 
 
 
 function noAnswer(){
 
+
 document.getElementById("characterReaction").innerHTML =
 '<img src="IMG_7853.png" class="reaction-teddy">';
 
 
-document.getElementById("reaction")
-.innerHTML=
+document.getElementById("reaction").innerHTML =
 "Teddy is crying 🥺";
 
 
 nextQuestion();
 
+
 }
-
-
 
 
 
@@ -150,7 +142,7 @@ currentQuestion++;
 if(currentQuestion < questions.length){
 
 
-setTimeout(()=>{
+setTimeout(function(){
 
 showQuestion();
 
@@ -162,7 +154,7 @@ showQuestion();
 else{
 
 
-setTimeout(()=>{
+setTimeout(function(){
 
 
 document.getElementById("questionPage")
@@ -182,8 +174,6 @@ document.getElementById("letterPage")
 
 
 
-
-
 // MEMORY PAGE
 
 function showMemories(){
@@ -198,8 +188,6 @@ document.getElementById("memoryPage")
 
 
 }
-
-
 
 
 
