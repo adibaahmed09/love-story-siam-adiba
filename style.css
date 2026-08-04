@@ -6,7 +6,7 @@
 
 
 body{
-<img src="IMG_7889.jpeg" style="width:200px;">
+
     min-height:100vh;
 
     font-family:'Arial',sans-serif;
@@ -354,10 +354,4 @@ video{
     object-fit:contain;
 
 }
-body{
-    min-height:100vh;
-    background-image:url("IMG_7889.jpeg");
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-}
+
