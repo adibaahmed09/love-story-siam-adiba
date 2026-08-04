@@ -176,8 +176,18 @@ document.getElementById("letterPage")
 
 // MEMORY PAGE
 
+// MEMORY PAGE
+
 function showMemories(){
 
+document.getElementById("passwordPage")
+.classList.add("hidden");
+
+document.getElementById("envelopePage")
+.classList.add("hidden");
+
+document.getElementById("questionPage")
+.classList.add("hidden");
 
 document.getElementById("letterPage")
 .classList.add("hidden");
@@ -187,13 +197,29 @@ document.getElementById("memoryPage")
 .classList.remove("hidden");
 
 
+document.getElementById("giftPage")
+.classList.add("hidden");
+
 }
+
 
 
 
 // GIFT PAGE
 
 function showGift(){
+
+document.getElementById("passwordPage")
+.classList.add("hidden");
+
+document.getElementById("envelopePage")
+.classList.add("hidden");
+
+document.getElementById("questionPage")
+.classList.add("hidden");
+
+document.getElementById("letterPage")
+.classList.add("hidden");
 
 
 document.getElementById("memoryPage")
@@ -202,6 +228,5 @@ document.getElementById("memoryPage")
 
 document.getElementById("giftPage")
 .classList.remove("hidden");
-
 
 }
