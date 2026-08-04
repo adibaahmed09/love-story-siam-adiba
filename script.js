@@ -102,17 +102,18 @@ questions[currentQuestion];
 
 
 
-// YES BUTTON
-
 function yesAnswer(){
 
-document.getElementById("characterReaction")
-.innerHTML="🤗💖";
+document.getElementById("characterReaction").innerHTML =
+'<img src="IMG_7857.png" class="reaction-teddy">';
 
 
 document.getElementById("reaction")
-.innerHTML=
+.innerHTML =
 "Sending you a big hug & love 💕";
+
+
+
 
 
 nextQuestion();
