@@ -1,0 +1,283 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+
+    min-height:100vh;
+
+    font-family:'Arial',sans-serif;
+
+    background:
+    linear-gradient(
+    135deg,
+    #fff1f7,
+    #fff9e8,
+    #f4f0ff
+    );
+
+    overflow:hidden;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+
+.page{
+
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+
+.hidden{
+
+    display:none !important;
+
+}
+
+
+
+/* BUBBLE CARD */
+
+.bubble-card{
+
+    width:350px;
+
+    padding:35px 25px;
+
+    background:
+    rgba(255,255,255,0.85);
+
+    border-radius:45px;
+
+    text-align:center;
+
+    box-shadow:
+
+    0 20px 50px rgba(255,120,170,.25);
+
+
+    animation:
+    pop .6s ease;
+
+}
+
+
+
+@keyframes pop{
+
+    from{
+
+        transform:scale(.7);
+        opacity:0;
+
+    }
+
+    to{
+
+        transform:scale(1);
+        opacity:1;
+
+    }
+
+}
+
+
+
+h1{
+
+    color:#ff6fa7;
+
+    margin-bottom:20px;
+
+}
+
+
+
+p{
+
+    color:#777;
+
+    margin-bottom:20px;
+
+}
+
+
+
+/* INPUT */
+
+input{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:25px;
+
+    background:#fff0f6;
+
+    font-size:16px;
+
+}
+
+
+
+/* BUTTON */
+
+button{
+
+    width:100%;
+
+    margin-top:15px;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:30px;
+
+    background:#ff8fba;
+
+    color:white;
+
+    font-size:17px;
+
+}
+
+
+
+/* CUTE CHARACTER */
+
+.character{
+
+    font-size:80px;
+
+    animation:bounce 2s infinite;
+
+}
+
+
+@keyframes bounce{
+
+    50%{
+
+        transform:translateY(-15px);
+
+    }
+
+}
+
+
+
+/* ENVELOPE */
+
+.big-envelope{
+
+    font-size:90px;
+
+    animation:float 2s infinite;
+
+}
+
+
+
+@keyframes float{
+
+    50%{
+
+        transform:translateY(-15px);
+
+    }
+
+}
+
+
+
+/* BACKGROUND DECOR */
+
+
+.decor{
+
+    position:absolute;
+
+    font-size:50px;
+
+    animation:move 8s infinite alternate;
+
+}
+
+
+
+.cloud{
+
+    top:10%;
+    left:10%;
+
+}
+
+
+
+.bee{
+
+    top:20%;
+    right:10%;
+
+}
+
+
+
+.flower{
+
+    bottom:10%;
+    left:15%;
+
+}
+
+
+
+.bow{
+
+    bottom:15%;
+    right:15%;
+
+}
+
+
+
+@keyframes move{
+
+    from{
+
+        transform:translateY(0);
+
+    }
+
+    to{
+
+        transform:translateY(30px);
+
+    }
+
+}
+
+
+video{
+
+    border-radius:20px;
+
+}
