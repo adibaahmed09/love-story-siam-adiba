@@ -383,3 +383,22 @@ video{
     color:#555;
 
 }
+.tape{
+
+    width:80px;
+
+    height:18px;
+
+    background:rgba(255,235,170,.8);
+
+    position:absolute;
+
+    top:-8px;
+
+    left:50%;
+
+    transform:translateX(-50%) rotate(-5deg);
+
+    border-radius:3px;
+
+}
