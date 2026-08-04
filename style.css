@@ -19,7 +19,8 @@ body{
     #f4f0ff
     );
 
-    overflow:hidden;
+    overflow-x:hidden;
+overflow-y:auto;
 
     display:flex;
     justify-content:center;
