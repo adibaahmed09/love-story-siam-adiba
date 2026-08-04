@@ -244,3 +244,11 @@ function switchPage(hidePage, showPage){
     },800);
 
 }
+function birthdayConfetti(){
+
+    confetti({
+        particleCount: 200,
+        spread: 120
+    });
+
+}
