@@ -476,3 +476,218 @@ video{
     opacity:0;
 
 }
+/* ===========================
+   SMOOTH FADE
+=========================== */
+
+.page{
+    opacity:1;
+    transition:opacity .8s ease;
+}
+
+.page.fade{
+    opacity:0;
+}
+
+
+/* ===========================
+   FLOATING BEES
+=========================== */
+
+.bee{
+    position:fixed;
+    width:45px;
+    animation:fly 12s linear infinite;
+    z-index:999;
+    pointer-events:none;
+}
+
+.bee:nth-child(1){
+    top:12%;
+    left:-60px;
+    animation-delay:0s;
+}
+
+.bee:nth-child(2){
+    top:55%;
+    left:-100px;
+    animation-delay:4s;
+}
+
+.bee:nth-child(3){
+    top:80%;
+    left:-80px;
+    animation-delay:8s;
+}
+
+@keyframes fly{
+
+    0%{
+        transform:translateX(-100px);
+    }
+
+    100%{
+        transform:translateX(calc(100vw + 200px));
+    }
+
+}
+
+
+/* ===========================
+   ONE LAST SURPRISE
+=========================== */
+
+#surprisePage h2{
+
+    animation:heartbeat 1.5s infinite;
+
+}
+
+@keyframes heartbeat{
+
+    0%{
+        transform:scale(1);
+    }
+
+    50%{
+        transform:scale(1.08);
+    }
+
+    100%{
+        transform:scale(1);
+    }
+
+}
+
+
+/* ===========================
+   VIDEO
+=========================== */
+
+video{
+
+    width:100%;
+    border-radius:25px;
+    box-shadow:0 15px 35px rgba(255,120,170,.3);
+
+}
+
+
+/* ===========================
+   ENDING PAGE
+=========================== */
+
+#endingPage{
+
+    text-align:center;
+
+}
+
+#endingPage h2{
+
+    font-size:38px;
+
+    color:#ff4f8b;
+
+    animation:glow 2s infinite;
+
+}
+
+@keyframes glow{
+
+    0%{
+
+        text-shadow:0 0 10px pink;
+
+    }
+
+    50%{
+
+        text-shadow:
+        0 0 30px hotpink,
+        0 0 60px hotpink;
+
+    }
+
+    100%{
+
+        text-shadow:0 0 10px pink;
+
+    }
+
+}
+
+
+/* ===========================
+   POLAROID HOVER
+=========================== */
+
+.memory{
+
+    cursor:pointer;
+
+}
+
+.memory:hover{
+
+    transform:scale(1.05) rotate(0deg);
+
+}
+
+
+/* ===========================
+   BUTTON EFFECT
+=========================== */
+
+button{
+
+    transition:.35s;
+
+}
+
+button:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 10px 20px rgba(255,120,170,.35);
+
+}
+
+
+/* ===========================
+   FLOATING HEARTS
+=========================== */
+
+.heart{
+
+    position:fixed;
+
+    color:#ff5b9c;
+
+    animation:heartFloat 8s linear infinite;
+
+    pointer-events:none;
+
+    z-index:998;
+
+}
+
+@keyframes heartFloat{
+
+    from{
+
+        transform:translateY(100vh);
+
+        opacity:0;
+
+    }
+
+    to{
+
+        transform:translateY(-100px);
+
+        opacity:1;
+
+    }
+
+}
