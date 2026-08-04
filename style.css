@@ -312,3 +312,16 @@ video{
     animation:bounce 1s infinite;
 
 }
+.letter-text{
+
+    max-height:300px;
+
+    overflow-y:auto;
+
+    text-align:left;
+
+    line-height:1.7;
+
+    font-size:15px;
+
+}
