@@ -325,3 +325,19 @@ video{
     font-size:15px;
 
 }
+.memory{
+    background:white;
+    border-radius:25px;
+    padding:15px;
+    margin:20px 0;
+}
+
+.memory img{
+    width:100%;
+    border-radius:20px;
+}
+
+.memory p{
+    margin-top:15px;
+    line-height:1.5;
+}
