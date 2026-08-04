@@ -13,19 +13,24 @@ body{
 
     background:
     linear-gradient(
-    135deg,
-    #fff1f7,
-    #fff9e8,
-    #f4f0ff
-    );
+    rgba(255,255,255,0.55),
+    rgba(255,255,255,0.55)
+    ),
+    url("IMG_7889.jpeg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-attachment:fixed;
 
     overflow-x:hidden;
+
     overflow-y:auto;
 
     display:block;
 
 }
-
 
 
 .page{
