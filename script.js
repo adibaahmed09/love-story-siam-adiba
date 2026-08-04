@@ -24,12 +24,7 @@ const questions = [
 "Are you ready for your final surprise? 💌"
 
 ];
-document.getElementById("questionPage")
-.classList.add("hidden");
 
-
-document.getElementById("letterPage")
-.classList.remove("hidden");
 
 
 // PASSWORD
