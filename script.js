@@ -36,6 +36,7 @@ document.getElementById("password").value;
 
 
 if(pass === "01012023"){
+  document.getElementById("teddy").src="IMG_7852.png";
 
 
 document.getElementById("passwordPage")
