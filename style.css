@@ -463,3 +463,16 @@ video{
     }
 
 }
+.page{
+
+    opacity:1;
+
+    transition:opacity .8s ease;
+
+}
+
+.page.fade{
+
+    opacity:0;
+
+}
