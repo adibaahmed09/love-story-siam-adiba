@@ -281,3 +281,25 @@ video{
     border-radius:20px;
 
 }
+.character img{
+
+    width:120px;
+    height:120px;
+    object-fit:contain;
+
+    animation:bounce 2s infinite;
+
+}
+
+
+.big-envelope img{
+
+    width:130px;
+    height:130px;
+    object-fit:contain;
+
+    border-radius:25px;
+
+    animation:float 2s infinite ease-in-out;
+
+}
