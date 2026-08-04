@@ -230,3 +230,17 @@ document.getElementById("giftPage")
 .classList.remove("hidden");
 
 }
+function switchPage(hidePage, showPage){
+
+    hidePage.classList.add("fade");
+
+    setTimeout(function(){
+
+        hidePage.classList.add("hidden");
+        hidePage.classList.remove("fade");
+
+        showPage.classList.remove("hidden");
+
+    },800);
+
+}
