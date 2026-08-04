@@ -331,27 +331,55 @@ video{
     font-size:15px;
 
 }
+
 .memory{
-    background:white;
-    border-radius:25px;
-    padding:15px;
-    margin:20px 0;
+
+    background:#fff;
+
+    padding:12px;
+
+    margin:30px auto;
+
+    width:95%;
+
+    border-radius:12px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+
+    transform:rotate(-2deg);
+
+    transition:.4s;
+
+}
+
+.memory:nth-child(even){
+
+    transform:rotate(2deg);
+
+}
+
+.memory:hover{
+
+    transform:scale(1.04) rotate(0deg);
+
 }
 
 .memory img{
+
     width:100%;
-    border-radius:20px;
+
+    border-radius:8px;
+
 }
 
 .memory p{
+
     margin-top:15px;
-    line-height:1.5;
+
+    font-family:"Comic Sans MS",cursive;
+
+    font-size:16px;
+
+    color:#555;
+
 }
-.decor img{
-
-    width:70px;
-    height:70px;
-    object-fit:contain;
-
-}
-
