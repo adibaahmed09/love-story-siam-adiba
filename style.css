@@ -20,11 +20,9 @@ body{
     );
 
     overflow-x:hidden;
-overflow-y:auto;
+    overflow-y:auto;
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display:block;
 
 }
 
@@ -33,6 +31,8 @@ overflow-y:auto;
 .page{
 
     width:100%;
+    min-height:100vh;
+
     display:flex;
     justify-content:center;
     align-items:center;
