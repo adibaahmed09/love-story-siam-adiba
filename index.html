@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Our Love Story 💖</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<!-- Cute Background Elements -->
+
+<div class="decor cloud">☁️</div>
+<div class="decor bee">🐝</div>
+<div class="decor flower">🌸</div>
+<div class="decor bow">🎀</div>
+
+
+<!-- PASSWORD PAGE -->
+
+<section id="passwordPage" class="page">
+
+<div class="bubble-card">
+
+<div class="character">
+🧸
+</div>
+
+<h1>Welcome My Love 💖</h1>
+
+<p>
+A little surprise is waiting for you...
+</p>
+
+
+<input 
+id="password"
+type="password"
+placeholder="Secret password">
+
+
+<button onclick="checkPassword()">
+Open Surprise 💌
+</button>
+
+
+<p id="message"></p>
+
+
+</div>
+
+</section>
+
+
+
+<!-- ENVELOPE PAGE -->
+
+<section id="envelopePage" class="page hidden">
+
+<div class="bubble-card">
+
+<div class="big-envelope">
+💌
+</div>
+
+<h1>
+Wanna Open?
+</h1>
+
+
+<button onclick="openQuestions()">
+YES 💖
+</button>
+
+
+</div>
+
+</section>
+
+
+
+<!-- QUESTIONS PAGE -->
+
+<section id="questionPage" class="page hidden">
+
+<div class="bubble-card">
+
+<div id="characterReaction">
+😊
+</div>
+
+
+<h1 id="questionText">
+Question
+</h1>
+
+
+<button onclick="yesAnswer()">
+YES 💕
+</button>
+
+
+<button onclick="noAnswer()">
+NO 😢
+</button>
+
+
+<p id="reaction"></p>
+
+
+</div>
+
+</section>
+
+
+
+<!-- LETTER PAGE -->
+
+<section id="letterPage" class="page hidden">
+
+<div class="bubble-card">
+
+<div class="big-envelope">
+💌
+</div>
+
+<h1>
+A Letter For You
+</h1>
+
+
+<p>
+My love, this surprise is made with lots of love ❤️
+</p>
+
+
+<button onclick="showMemories()">
+Let's See Our Memories 📸
+</button>
+
+
+</div>
+
+</section>
+
+
+
+<!-- MEMORIES PAGE -->
+
+<section id="memoryPage" class="page hidden">
+
+<div class="bubble-card">
+
+<h1>
+Our Memories 📸
+</h1>
+
+
+<div id="photos">
+
+</div>
+
+
+<button onclick="showGift()">
+Let's See Your Main Gift 🎁
+</button>
+
+
+</div>
+
+</section>
+
+
+
+<!-- GIFT PAGE -->
+
+<section id="giftPage" class="page hidden">
+
+<div class="bubble-card">
+
+<h1>
+Your Main Gift 🎁
+</h1>
+
+
+<video width="300" controls>
+
+<source src="video.mp4">
+
+</video>
+
+
+</div>
+
+</section>
+
+
+
+<audio id="music" loop>
+
+<source src="music.mp3">
+
+</audio>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
