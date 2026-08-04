@@ -303,3 +303,12 @@ video{
     animation:float 2s infinite ease-in-out;
 
 }
+.reaction-teddy{
+
+    width:120px;
+    height:120px;
+    object-fit:contain;
+
+    animation:bounce 1s infinite;
+
+}
