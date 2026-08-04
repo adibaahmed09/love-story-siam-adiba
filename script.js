@@ -123,12 +123,10 @@ nextQuestion();
 
 
 
-// NO BUTTON
-
 function noAnswer(){
 
-document.getElementById("characterReaction")
-.innerHTML="😭";
+document.getElementById("characterReaction").innerHTML =
+'<img src="IMG_7853.png" class="reaction-teddy">';
 
 
 document.getElementById("reaction")
