@@ -1,4 +1,3 @@
-alert("JS working");
 let currentQuestion = 0;
 
 
