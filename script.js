@@ -39,12 +39,7 @@ if(pass === "01012023"){
   document.getElementById("teddy").src="IMG_7852.png";
 
 
-document.getElementById("passwordPage")
-.classList.add("hidden");
 
-
-document.getElementById("envelopePage")
-.classList.remove("hidden");
 
 
 document.getElementById("music").play();
